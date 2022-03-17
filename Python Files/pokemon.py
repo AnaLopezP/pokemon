@@ -53,6 +53,41 @@ class Pokemon():
     def set_id(self, id):
         self.id = id
         return self.id
+    
+    def get_pokemon_name(self):
+        return self.pokemon_name
+   
+    def set_pokemon_name(self, pokemon_name):
+        self.pokemon_name = pokemon_name
+        return self.pokemon_name
+
+    def get_weapon_type(self):
+        return self.weapon_type
+   
+    def set_weapon_type(self, weapon_type):
+        self.weapon_type= weapon_type
+        return self.weapon_type
+
+    def get_health_points(self):
+        return self.health_points
+   
+    def set_health_points(self, health_points):
+        self.health_points= health_points
+        return self.health_points
+
+    def get_attack_rating(self):
+        return self.attack_rating
+   
+    def set_attack_rating(self, attack_rating):
+        self.attack_rating= attack_rating
+        return self.attack_rating
+
+    def get_defense_rating(self):
+        return self.defense_rating
+   
+    def set_defense_rating(self, defense_rating):
+        self.defense_rating= defense_rating
+        return self.defense_rating
 
 
 
