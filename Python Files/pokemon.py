@@ -50,6 +50,9 @@ class Pokemon():
     def get_id(self):
         return self.id
    
+    def set_id(self, id):
+        self.id = id
+        return self.id
 
 
 
