@@ -43,6 +43,13 @@ class Pokemon():
         self.health_points = health_points
         self.attack_rating = attack_rating
         self.defense_rating = defense_rating
+    
+    def __del__(self):
+        print("lo dejo para luego")
+    
+    def get_id(self):
+        return self.id
+   
 
 
 
